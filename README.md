@@ -1,6 +1,6 @@
-# starter
+# Flutter Compass App
 
-A new Flutter project.
+[Compass App](https://www.youtube.com/watch?v=hjVkrAaonWI) - [Mitch Koko](https://www.youtube.com/c/MitchKoko)
 
 ## Getting Started
 

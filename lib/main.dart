@@ -1,14 +1,20 @@
 import 'package:flutter/material.dart';
 
-void main() => runApp(const StarterApp());
+void main() => runApp(CompassApp());
 
-class StarterApp extends StatelessWidget {
-  const StarterApp({super.key});
+class CompassApp extends StatefulWidget {
+  const CompassApp({super.key});
 
   @override
+  State<CompassApp> createState() => _CompassAppState();
+}
+
+class _CompassAppState extends State<CompassApp> {
+  @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      title: 'Starter App',
+    return MaterialApp(
+      title: 'Compass App',
+      debugShowCheckedModeBanner: false,
       home: HomePage(),
     );
   }
@@ -19,6 +25,6 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold();
+    return Scaffold();
   }
 }
